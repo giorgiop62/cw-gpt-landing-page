@@ -2,9 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Space Grotesk', sans-serif;
+    
 }
-header,footer{
+header{
     background-color: blue;
     height: 100px;
     text-align: center;
@@ -29,7 +30,8 @@ h1{
     color: white;
     background-image:url(../immagini/cover-bg.png);
     background-size: cover;
-    height: 800px;
+    background-position: center;
+    height: 350px;
 }
 .info{
     width: 60%;
@@ -61,17 +63,24 @@ h1{
 .text-dall{
     margin-left: 20px;
 }
-.plus{
+
+footer {
+    background-color: #1212B2;
+    padding: 32px;
+}
+
+footer p {
     font-size: 16px;
     color: white;
-    margin-right: 100px;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    height: 100px;
+    margin-bottom: 10px;
+    text-align: right;
 }
-a{
-    color: blueviolet;
-    margin-right: 10px;
+
+.highlight {
+    background-color: #ffb703;
 }
+a {
+    color: #c917c0;
+}
+
 
